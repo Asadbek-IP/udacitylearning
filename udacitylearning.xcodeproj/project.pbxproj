@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0DF2AB2A70E8860015BEE8 /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DF2AA2A70E8860015BEE8 /* ExtractedView.swift */; };
 		0E5379A92A6BB5790050BCEA /* udacitylearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5379A82A6BB5790050BCEA /* udacitylearningApp.swift */; };
 		0E5379AB2A6BB5790050BCEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5379AA2A6BB5790050BCEA /* ContentView.swift */; };
 		0E5379AD2A6BB57B0050BCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5379AC2A6BB57B0050BCEA /* Assets.xcassets */; };
 		0E5379B02A6BB57B0050BCEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5379AF2A6BB57B0050BCEA /* Preview Assets.xcassets */; };
+		0E5AD1EF2A6E6358000A03F7 /* Lugrasimo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AD1EE2A6E6358000A03F7 /* Lugrasimo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0DF2AA2A70E8860015BEE8 /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
 		0E5379A52A6BB5790050BCEA /* udacitylearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udacitylearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5379A82A6BB5790050BCEA /* udacitylearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udacitylearningApp.swift; sourceTree = "<group>"; };
 		0E5379AA2A6BB5790050BCEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E5379AC2A6BB57B0050BCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5379AF2A6BB57B0050BCEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E5AD1EE2A6E6358000A03F7 /* Lugrasimo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lugrasimo-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		0E5379A72A6BB5790050BCEA /* udacitylearning */ = {
 			isa = PBXGroup;
 			children = (
+				0E5AD1EE2A6E6358000A03F7 /* Lugrasimo-Regular.ttf */,
 				0E5379A82A6BB5790050BCEA /* udacitylearningApp.swift */,
 				0E5379AA2A6BB5790050BCEA /* ContentView.swift */,
 				0E5379AC2A6BB57B0050BCEA /* Assets.xcassets */,
 				0E5379AE2A6BB57B0050BCEA /* Preview Content */,
+				0E0DF2AA2A70E8860015BEE8 /* ExtractedView.swift */,
 			);
 			path = udacitylearning;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5379B02A6BB57B0050BCEA /* Preview Assets.xcassets in Resources */,
+				0E5AD1EF2A6E6358000A03F7 /* Lugrasimo-Regular.ttf in Resources */,
 				0E5379AD2A6BB57B0050BCEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				0E5379AB2A6BB5790050BCEA /* ContentView.swift in Sources */,
 				0E5379A92A6BB5790050BCEA /* udacitylearningApp.swift in Sources */,
+				0E0DF2AB2A70E8860015BEE8 /* ExtractedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = FTL4TL2Q7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udacitylearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = FTL4TL2Q7Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = udacitylearning/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
